@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+gem "jekyll-target-blank"
+gem "base64"
+gem "csv"
+gem "logger"
+
 # When you want to use a different Jekyll version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
@@ -19,4 +24,4 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem "wdm", :install_if => Gem.win_platform?

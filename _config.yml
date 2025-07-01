@@ -1,19 +1,35 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
-description: Bay is a minimal Jekyll Theme.
-baseurl: "/bay"
-url: "https://eliottvincent.github.io"
+title: Lean Formalization Lab
+description: "Pioneering certified proofs and algorithms in Lean 4"
+baseurl: ""
+url: "https://sanghyeok0.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
 header:
   pages:
     - name: Home
-      slug: /
-    - name: Work
-    - name: Blog
+      slug: /                # 메인 페이지
+    # - name: Lab
+    #   slug: /about/          # 연구실 소개 (about.md)
+    - name: People
+      slug: /people/         # 구성원 페이지
+    # - name: Research
+    #   slug: /research/       # 연구 주제 개요
+    - name: Projects
+      slug: /projects/       # 개별 프로젝트 상세
+    - name: Publications
+      slug: /publications/   # 논문·성과 목록
+    # - name: News
+    #   slug: /news/           # 세미나·이벤트 공지
+    - name: Links
+      slug: /links/
+    # - name: Resources
+    #   slug: /resources/      # 코드·데이터·강의자료
+    # - name: Contact
+    #   slug: /contact/        # 연락처 페이지
 
 footer:
   show_powered_by: true
@@ -51,6 +67,7 @@ sass:
     style: :compressed
 plugins:
   - jekyll-feed
+  - jekyll-target-blank
 
 # Excluded items
 exclude:

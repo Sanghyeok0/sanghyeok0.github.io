@@ -1,0 +1,63 @@
+# ────────────────────────
+# Faculty
+- name: David Donghoon Hyeon            # 이름 :contentReference[oaicite:0]{index=0}
+  group: Faculty                               # Faculty 그룹
+  role: Professor                              # 직위 :contentReference[oaicite:1]{index=1}
+  photo: /assets/img/people/David Donghoon Hyeon.jpg          # 프로필 사진 경로
+  affiliation: "Department of Mathematical Sciences, Seoul National University"  # 소속 :contentReference[oaicite:2]{index=2}
+  office: "Gwanakgu Gwanakro 1, Bldg 27 Rm403, Seoul, R.O.Korea"                   # 연구실 위치 :contentReference[oaicite:3]{index=3}
+  research:
+    - category: "Algebraic geometry"
+      topics:
+        - Moduli theory
+        - Stability
+        - Algebraic curves
+        - Bundles
+    - category: "Computer science"
+      topics:
+        - Computational complexity
+        - Computer vision
+      # 연구 분야 :contentReference[oaicite:4]{index=4}
+  teaching:
+    - "Homological methods (Spring 2024, 2023, 2021)"  # 강의 과목 및 학기 :contentReference[oaicite:5]{index=5}
+  webpage: https://www.math.snu.ac.kr/~hyeon/  # 홈페이지 :contentReference[oaicite:6]{index=6}
+  email: dhyeon@seoul.ac.kr                                  
+
+# ────────────────────────
+# Students
+- name: Sanghyeok Park
+  group: Students
+  role: PhD Candidate
+  photo:
+  research:
+    - category: "Formalization in Lean 4"
+      topics:
+        - Gröbner bases
+        - Buchberger’s algorithm
+    - category: "Image Space Modeling"
+      topics:
+        - Manifold learning
+  email: 202123018@snu.ac.kr
+  webpage: https://sanghyeok0.github.io/Buchberger/
+
+- name: 최선종
+  group: Students
+  role: PhD Candidate
+  photo:
+  research:
+    - category: "Autoformalization in Lean"
+      topics:
+        - Autoformalization in Lean
+  email: sunjc@snu.ac.kr 
+  webpage:
+
+- name: Dongwook Cheon
+  group: Students
+  role: PhD Candidate
+  photo:
+  research:
+    - category: "Formalization in Lean 4"
+      topics:
+        - Faugère’s F4 algorithm
+  email: dongwook0826@snu.ac.kr
+  webpage: https://dongwook0826.github.io/FaugereF4/

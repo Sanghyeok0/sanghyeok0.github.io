@@ -1,14 +1,18 @@
 ---
 layout: home
+title: "Lean Formalization Lab"
 profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
+  src: /assets/img/Lean 4 proof.png
+  alt: "Lean 4 proof snippet in Visual Studio Code"
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Welcome to the <strong>Lean Formalization Lab</strong>!  
+  We develop and verify machine-checked proofs and certified algorithms in Lean 4.
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  ▶ <a href="/people/">Meet the Team</a><br>
+  ▶ <a href="/projects/">Our Projects</a><br>
+  ▶ <a href="/links/">Resources &amp; Papers</a>
 </p>
