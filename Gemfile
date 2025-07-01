@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll-remote-theme"
-gem "jekyll-target-blank"
+# gem "jekyll-remote-theme"
+# gem "jekyll-target-blank"
 gem "base64"
 gem "csv"
 gem "logger"

@@ -3,7 +3,7 @@
 
 title: Lean Formalization Lab
 description: "Pioneering certified proofs and algorithms in Lean 4"
-baseurl:
+baseurl: ""
 url: "https://sanghyeok0.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
@@ -69,8 +69,8 @@ sass:
     style: :compressed
 plugins:
   - jekyll-feed
-  - jekyll-target-blank
-  - jekyll-remote-theme
+  # - jekyll-target-blank
+  # - jekyll-remote-theme
 
 target_blank:
   enabled: true
