@@ -7,12 +7,11 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- 홈 메인 섹션 -->
-        <div class="home text-center py-12">
+        <div class="home">
           <img
             src="{{ page.profile_picture.src | absolute_url }}"
             alt="{{ page.profile_picture.alt }}"
-            style="width:100%; max-width:none; display:block; margin:0 auto 2rem;"
+            class="profile-pic"
           />
 
           {{ content }}
@@ -21,6 +20,7 @@
     </div>
 
     {% include footer.html %}
+
     {% include foot.html %}
   </body>
 </html>
