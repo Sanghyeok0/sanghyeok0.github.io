@@ -8,6 +8,8 @@ url: "https://sanghyeok0.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
+remote_theme: eliottvincent/bay
+
 header:
   pages:
     - name: Home
@@ -68,6 +70,13 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-target-blank
+  - jekyll-remote-theme
+
+target_blank:
+  enabled: true
+  rel: "noopener"
+  whitelist:
+    - "/links/"
 
 # Excluded items
 exclude:
