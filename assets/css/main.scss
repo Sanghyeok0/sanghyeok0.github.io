@@ -17,3 +17,10 @@
 @use "blog";
 @use "post";
 @use "not_found";
+
+.profile-pic {
+  width: 100% !important;
+  max-width: none !important;
+  display: block;
+  margin: 0 auto 2rem;
+}
