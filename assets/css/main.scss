@@ -17,21 +17,3 @@
 @use "blog";
 @use "post";
 @use "not_found";
-
-.profile-pic {
-  width: 100% !important;
-  max-width: none !important;
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-/* Projects 페이지: work-item 안의 모든 링크를 검정으로 */
-.work .work-item a {
-  color: #000 !important;
-  text-decoration: none !important; /* 밑줄 없애려면 */
-}
-
-/* 제목 부분(strong)도 검정으로 */
-.work .work-item a strong {
-  color: #000 !important;
-}

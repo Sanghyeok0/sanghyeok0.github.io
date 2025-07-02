@@ -8,7 +8,7 @@ url: "https://sanghyeok0.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
-remote_theme: eliottvincent/bay
+# remote_theme: eliottvincent/bay
 
 header:
   pages:
@@ -68,9 +68,8 @@ markdown: kramdown
 sass:
     style: :compressed
 plugins:
-  - jekyll-feed
-  # - jekyll-target-blank
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-target-blank
 
 target_blank:
   enabled: true
